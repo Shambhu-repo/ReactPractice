@@ -1,0 +1,99 @@
+/* this navbar is classname in App.jsx so whatever we wnat to play with that class here we can do it like we want padding
+20 px and display flex etc that will reflect in Html DOM  */
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market-names { 
+    display: flex; 
+    flex-direction: column; 
+    ustify-content: center; 
+    font-size: max(2vw, 20px);
+    animation: fadeIn 3s;
+}
+
+h1.market-name-nepali { 
+   font-size:max(2.5vw, 15px); /* Adjust the font size as needed */ 
+    font-weight: bold; /* Makes the text bold */ 
+    color: tomato; /* Sets the text color to tomato */ 
+    white-space: noWrap;
+}
+
+/* For small screens (e.g., phones) 
+@media (max-width: 599px) { 
+    h1.market-name-nepali  { font-size: 20px; } 
+}
+  //For very large screens (e.g., large desktops) 
+ @media (min-width: 1200px) { 
+   
+    h1.market-name-nepali { font-size: 32px; } 
+}
+
+*/
+
+
+
+.navbar .logo{
+    width: 150px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar button:hover{
+    background: #fff4f2;
+}
+
+.navbar .active{
+   padding-bottom: 2px;
+    border-bottom: 2px solid #49557e ;
+}
+
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+
+}
+
+.navbar-search-icon  .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height:10px ;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+
+@media (max-width:1050px){
+    .navbar 
+}

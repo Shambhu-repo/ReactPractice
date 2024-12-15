@@ -1,0 +1,11 @@
+1st : go to folder and do command :  npm init
+
+2nd need to install package:
+npm install express mongoose jsonwebtoken bcrypt cors dotenv body-parser multer stripe validator nodemon 
+
+
+3rd:
+to run thee project we need to make change in package.json folder script with
+"scripts": {
+   "server":"nodemon serve.js"
+  },
